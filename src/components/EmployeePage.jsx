@@ -1,7 +1,7 @@
 
 import { Header } from './Header';
 
-export function EmployeePage(employee) {
+export function EmployeePage({employee}) {
 
     const style = {
         border: "0.1rem solid gold",
