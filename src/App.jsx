@@ -6,14 +6,13 @@ import './App.css';
 import { HomePage } from './components/HomePage';
 import { EmployeePage } from './components/EmployeePage';
 
-
 const employees = [
-  { name: 'James King', title: 'President and CEO' },
-  { name: 'Julie Taylor', title: 'VP of Marketing' },
-  { name: 'Eugene Lee', title: 'CFO' },
-  { name: 'John Williams', title: 'VP of Engineering' },
-  { name: 'Ray Moore', title: 'VP of Sales' },
-  { name: 'Paul Jones', title: 'QA Manager' },
+  { name: 'James King', title: 'President and CEO', office: '(555) 555-5555', mobile: '(555) 555-5555', sms: '(555)-555-5555', email: 'foo@foo.com' },
+  { name: 'Julie Taylor', title: 'VP of Marketing', office: '(555) 555-5555', mobile: '(555) 555-5555', sms: '(555)-555-5555', email: 'foo@foo.com' },
+  { name: 'Eugene Lee', title: 'CFO', office: '(555) 555-5555', mobile: '(555) 555-5555', sms: '(555)-555-5555', email: 'foo@foo.com' },
+  { name: 'John Williams', title: 'VP of Engineering', office: '(555) 555-5555', mobile: '(555) 555-5555', sms: '(555)-555-5555', email: 'foo@foo.com' },
+  { name: 'Ray Moore', title: 'VP of Sales', office: '(555) 555-5555', mobile: '(555) 555-5555', sms: '(555)-555-5555', email: 'foo@foo.com' },
+  { name: 'Paul Jones', title: 'QA Manager', office: '(555) 555-5555', mobile: '(555) 555-5555', sms: '(555)-555-5555', email: 'foo@foo.com' },
 ];
 
 function App() {
